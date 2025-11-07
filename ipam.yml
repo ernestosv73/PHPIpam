@@ -6,7 +6,7 @@ topology:
       kind: linux
       image: esanchezv/phpipam:latest
       binds:
-       - configs/install-phpipam.sh:/root/phpipam.sh
+       - configs/install-phpipam.sh:/root/install-phpipam.sh
       exec:
        - chmod +x /root/install-phpipam.sh
       ports:
