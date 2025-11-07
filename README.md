@@ -1,9 +1,9 @@
 # PHPIpam Server running in Containerlab
 PHPIpam docker container ready to run in a Containerlab topology. 
 
-## instructions
+## Instructions
 
-* Deploy rhe topology and access from your local server vía http (http://iplocal:8081).
+* Deploy the topology and access from your local server vía http (http://iplocal:8081).
 * user: admin password: 12131415
 
 ## Notes
