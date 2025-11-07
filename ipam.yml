@@ -1,0 +1,10 @@
+name: ipam
+  
+topology:
+  nodes:
+    ipam-server:
+    kind: linux
+       image: docker.io/esanchezv/srvhttps:latest
+    ports:
+        - 8081:80/tcp   
+  
