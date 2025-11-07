@@ -9,6 +9,8 @@ topology:
        - configs/install-phpipam.sh:/root/install-phpipam.sh
       exec:
        - chmod +x /root/install-phpipam.sh
+       - service mariadb start
+       - service apache2 start
       ports:
        - 8081:80/tcp   
   
