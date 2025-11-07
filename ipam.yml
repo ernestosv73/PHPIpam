@@ -4,7 +4,7 @@ topology:
   nodes:
     ipam-server:
       kind: linux
-      image: esanchezv/phpipam:latest
+      image: docker.io/esanchezv/phpipam:latest
       binds:
        - configs/install-phpipam.sh:/root/install-phpipam.sh
       exec:
