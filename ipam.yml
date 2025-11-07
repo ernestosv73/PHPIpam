@@ -4,7 +4,7 @@ topology:
   nodes:
     ipam-server:
       kind: linux
-      image: docker.io/esanchezv/srvhttps:latest
+      image: docker.io/esanchezv/ubuntu2204:latest
       ports:
        - 8081:80/tcp   
   
