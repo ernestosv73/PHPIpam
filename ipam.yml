@@ -5,6 +5,10 @@ topology:
     ipam-server:
       kind: linux
       image: docker.io/esanchezv/ubuntu2204:latest
+      binds:
+       - configs/install-phpipam.sh:/root/phpipam.sh
+      exec:
+       - chmod +x /root/install-phpipam.sh
       ports:
        - 8081:80/tcp   
   
